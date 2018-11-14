@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:zing_application/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">

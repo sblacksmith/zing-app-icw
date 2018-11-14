@@ -1,0 +1,7 @@
+#
+# PageTS for zing-application
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zing_application/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zing_application/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zing_application/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zing_application/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
