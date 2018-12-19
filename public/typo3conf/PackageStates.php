@@ -11,6 +11,9 @@ return [
         'core' => [
             'packagePath' => 'typo3/sysext/core/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'extbase' => [
             'packagePath' => 'typo3/sysext/extbase/',
         ],
@@ -32,14 +35,29 @@ return [
         'backend' => [
             'packagePath' => 'typo3/sysext/backend/',
         ],
+        'recycler' => [
+            'packagePath' => 'typo3/sysext/recycler/',
+        ],
+        'reports' => [
+            'packagePath' => 'typo3/sysext/reports/',
+        ],
         'setup' => [
             'packagePath' => 'typo3/sysext/setup/',
         ],
         'rte_ckeditor' => [
             'packagePath' => 'typo3/sysext/rte_ckeditor/',
         ],
+        'about' => [
+            'packagePath' => 'typo3/sysext/about/',
+        ],
         'adminpanel' => [
             'packagePath' => 'typo3/sysext/adminpanel/',
+        ],
+        'belog' => [
+            'packagePath' => 'typo3/sysext/belog/',
+        ],
+        'beuser' => [
+            'packagePath' => 'typo3/sysext/beuser/',
         ],
         'extensionmanager' => [
             'packagePath' => 'typo3/sysext/extensionmanager/',
@@ -50,11 +68,23 @@ return [
         'form' => [
             'packagePath' => 'typo3/sysext/form/',
         ],
+        'impexp' => [
+            'packagePath' => 'typo3/sysext/impexp/',
+        ],
+        'info' => [
+            'packagePath' => 'typo3/sysext/info/',
+        ],
+        'lowlevel' => [
+            'packagePath' => 'typo3/sysext/lowlevel/',
+        ],
+        'opendocs' => [
+            'packagePath' => 'typo3/sysext/opendocs/',
+        ],
         'redirects' => [
             'packagePath' => 'typo3/sysext/redirects/',
         ],
-        'reports' => [
-            'packagePath' => 'typo3/sysext/reports/',
+        'seo' => [
+            'packagePath' => 'typo3/sysext/seo/',
         ],
         't3editor' => [
             'packagePath' => 'typo3/sysext/t3editor/',
@@ -64,6 +94,12 @@ return [
         ],
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
+        ],
+        'bootstrap_package' => [
+            'packagePath' => 'typo3conf/ext/bootstrap_package/',
+        ],
+        'zing_application' => [
+            'packagePath' => 'typo3conf/ext/zing_application/',
         ],
     ],
     'version' => 5,
