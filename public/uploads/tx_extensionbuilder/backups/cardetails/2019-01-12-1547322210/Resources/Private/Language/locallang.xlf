@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-12T06:12:11Z" product-name="cardetails">
+		<header/>
+		<body>
+			<trans-unit id="tx_cardetails_domain_model_cardetails">
+				<source>Car Details</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.c_id">
+				<source>C Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.c_name">
+				<source>C Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.c_brand">
+				<source>C Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.fuel_type">
+				<source>Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.seller">
+				<source>Seller</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.get_brand">
+				<source>Get Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.get_c_name">
+				<source>Get C Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.get_fuel_type">
+				<source>Get Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.get_price">
+				<source>Get Price</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_cardetails.get_seller_details">
+				<source>Get Seller Details</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_sellerdetails">
+				<source>Seller Details</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_sellerdetails.s_id">
+				<source>S Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_sellerdetails.s_name">
+				<source>S Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_sellerdetails.s_contact">
+				<source>S Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_brand.b_id">
+				<source>B Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_brand.b_name">
+				<source>B Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_carname">
+				<source>Car Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_carname.c_n_id">
+				<source>C N Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_carname.c_name">
+				<source>C Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_fueltype">
+				<source>Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_fueltype.f_id">
+				<source>F Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_fueltype.fuel_type">
+				<source>Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_price.p_id">
+				<source>P Id</source>
+			</trans-unit>
+			<trans-unit id="tx_cardetails_domain_model_price.price">
+				<source>Price</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

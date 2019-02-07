@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-12T12:43:38Z" product-name="cardetails">
+		<header/>
+		<body>
+			<trans-unit id="c_id.description">
+				<source>cId</source>
+			</trans-unit>
+			<trans-unit id="c_name.description">
+				<source>cName</source>
+			</trans-unit>
+			<trans-unit id="c_brand.description">
+				<source>cBrand</source>
+			</trans-unit>
+			<trans-unit id="color.description">
+				<source>color</source>
+			</trans-unit>
+			<trans-unit id="price.description">
+				<source>price</source>
+			</trans-unit>
+			<trans-unit id="fuel_type.description">
+				<source>fuelType</source>
+			</trans-unit>
+			<trans-unit id="seller.description">
+				<source>seller</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="get_brand.description">
+				<source>getBrand</source>
+			</trans-unit>
+			<trans-unit id="get_c_name.description">
+				<source>getCName</source>
+			</trans-unit>
+			<trans-unit id="get_fuel_type.description">
+				<source>getFuelType</source>
+			</trans-unit>
+			<trans-unit id="get_price.description">
+				<source>getPrice</source>
+			</trans-unit>
+			<trans-unit id="get_seller_details.description">
+				<source>getSellerDetails</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

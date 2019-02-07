@@ -1,0 +1,46 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+		<h1>Listing for SearchTable</h1>
+
+		<f:flashMessages />
+
+		<table  class="tx_search" >
+			<tr>
+				<th><f:translate key="tx_search_domain_model_searchtable.car_brand" /></th>
+				<th><f:translate key="tx_search_domain_model_searchtable.fuel_type" /></th>
+				<th><f:translate key="tx_search_domain_model_searchtable.color" /></th>
+				<th><f:translate key="tx_search_domain_model_searchtable.price" /></th>
+				<th><f:translate key="tx_search_domain_model_searchtable.miles_run" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>
+
+			<f:for each="{searchTables}" as="searchTable">
+				<tr>
+					<td><f:link.action action="show" arguments="{searchTable : searchTable}"> {searchTable.carBrand}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{searchTable : searchTable}"> {searchTable.fuelType}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{searchTable : searchTable}"> {searchTable.color}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{searchTable : searchTable}"> {searchTable.price}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{searchTable : searchTable}"> {searchTable.milesRun}</f:link.action></td>
+					<td><f:link.action action="edit" arguments="{searchTable : searchTable}">Edit</f:link.action></td>
+					<td><f:link.action action="delete" arguments="{searchTable : searchTable}">Delete</f:link.action></td>
+				</tr>
+			</f:for>
+		</table>
+
+		<f:link.action action="new">New SearchTable</f:link.action>
+	</f:section>
+</html>

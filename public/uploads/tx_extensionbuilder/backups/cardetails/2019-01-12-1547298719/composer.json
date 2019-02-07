@@ -1,0 +1,24 @@
+{
+    "name": "cars/cardetails",
+    "type": "typo3-cms-extension",
+    "description": "Main Model of the project, which has the details of the car",
+    "authors": [],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cars\\Cardetails\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cars\\Cardetails\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "cardetails": "self.version",
+        "typo3-ter/cardetails": "self.version"
+    }
+}

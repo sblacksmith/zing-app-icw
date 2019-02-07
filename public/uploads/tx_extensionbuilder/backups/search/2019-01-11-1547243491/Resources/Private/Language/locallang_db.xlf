@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-11T08:39:04Z" product-name="search">
+		<header/>
+		<body>
+			<trans-unit id="tx_search_domain_model_searchtable">
+				<source>Search Table</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.car_brand">
+				<source>Car Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.fuel_type">
+				<source>Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.miles_run">
+				<source>Miles Run</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_searchtable.cars_data">
+				<source>Cars Data</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails">
+				<source>Car Deatails</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails.model">
+				<source>Model</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails.fuel">
+				<source>Fuel</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_search_domain_model_cardeatails.miles">
+				<source>Miles</source>
+			</trans-unit>
+			<trans-unit id="tx_search_search.name">
+				<source>Search</source>
+			</trans-unit>
+			<trans-unit id="tx_search_search.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

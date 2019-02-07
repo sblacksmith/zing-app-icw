@@ -1,0 +1,15 @@
+
+plugin.tx_zingcarinfo_zingcarinfo {
+    view {
+        # cat=plugin.tx_zingcarinfo_zingcarinfo/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:zingcarinfo/Resources/Private/Templates/
+        # cat=plugin.tx_zingcarinfo_zingcarinfo/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:zingcarinfo/Resources/Private/Partials/
+        # cat=plugin.tx_zingcarinfo_zingcarinfo/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:zingcarinfo/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_zingcarinfo_zingcarinfo//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

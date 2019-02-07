@@ -62,6 +62,9 @@ return [
         'extensionmanager' => [
             'packagePath' => 'typo3/sysext/extensionmanager/',
         ],
+        'felogin' => [
+            'packagePath' => 'typo3/sysext/felogin/',
+        ],
         'filelist' => [
             'packagePath' => 'typo3/sysext/filelist/',
         ],
@@ -98,8 +101,11 @@ return [
         'bootstrap_package' => [
             'packagePath' => 'typo3conf/ext/bootstrap_package/',
         ],
-        'zing_application' => [
-            'packagePath' => 'typo3conf/ext/zing_application/',
+        'extension_builder' => [
+            'packagePath' => 'typo3conf/ext/extension_builder/',
+        ],
+        'zingcarinfo' => [
+            'packagePath' => 'typo3conf/ext/zingcarinfo/',
         ],
     ],
     'version' => 5,

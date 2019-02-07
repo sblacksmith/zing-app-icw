@@ -1,0 +1,24 @@
+{
+    "name": "searchcars/search",
+    "type": "typo3-cms-extension",
+    "description": "search elements",
+    "authors": [],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SearchCars\\Search\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SearchCars\\Search\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "search": "self.version",
+        "typo3-ter/search": "self.version"
+    }
+}

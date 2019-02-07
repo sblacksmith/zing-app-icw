@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-11T08:39:04Z" product-name="search">
+		<header/>
+		<body>
+			<trans-unit id="model.description">
+				<source>model</source>
+			</trans-unit>
+			<trans-unit id="fuel.description">
+				<source>fuel</source>
+			</trans-unit>
+			<trans-unit id="color.description">
+				<source>color</source>
+			</trans-unit>
+			<trans-unit id="price.description">
+				<source>price</source>
+			</trans-unit>
+			<trans-unit id="miles.description">
+				<source>miles</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

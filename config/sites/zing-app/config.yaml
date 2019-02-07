@@ -1,0 +1,18 @@
+rootPageId: 1
+base: 'http://zing-app-icw.ddev.local'
+baseVariants: {  }
+languages:
+  -
+    title: Zing
+    enabled: true
+    languageId: '0'
+    base: /
+    typo3Language: default
+    locale: en_US.UFT-8
+    iso-639-1: ab
+    navigationTitle: ''
+    hreflang: ''
+    direction: ''
+    flag: global
+errorHandling: {  }
+routes: {  }

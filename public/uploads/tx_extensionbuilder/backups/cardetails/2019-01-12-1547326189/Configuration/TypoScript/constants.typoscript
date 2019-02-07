@@ -1,0 +1,15 @@
+
+plugin.tx_cardetails_cardetails {
+    view {
+        # cat=plugin.tx_cardetails_cardetails/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:cardetails/Resources/Private/Templates/
+        # cat=plugin.tx_cardetails_cardetails/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:cardetails/Resources/Private/Partials/
+        # cat=plugin.tx_cardetails_cardetails/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:cardetails/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_cardetails_cardetails//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

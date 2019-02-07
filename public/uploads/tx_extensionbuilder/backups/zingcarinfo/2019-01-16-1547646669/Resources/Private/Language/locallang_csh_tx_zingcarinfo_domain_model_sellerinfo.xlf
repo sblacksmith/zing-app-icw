@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-16T06:49:32Z" product-name="zingcarinfo">
+		<header/>
+		<body>
+			<trans-unit id="seller_id.description">
+				<source>sellerId</source>
+			</trans-unit>
+			<trans-unit id="seller_name.description">
+				<source>sellerName</source>
+			</trans-unit>
+			<trans-unit id="seller_contact.description">
+				<source>sellerContact</source>
+			</trans-unit>
+			<trans-unit id="car_id.description">
+				<source>carId</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

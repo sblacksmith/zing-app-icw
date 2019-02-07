@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-16T06:41:07Z" product-name="zingcarinfo">
+		<header/>
+		<body>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail">
+				<source>Zing Car Detail</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.car_id">
+				<source>Car Id</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.car_brand">
+				<source>Car Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.car_name">
+				<source>Car Name</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.car_price">
+				<source>Car Price</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.fuel_type">
+				<source>Fuel Type</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.car_image">
+				<source>Car Image</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_zingcardetail.seller_detail">
+				<source>Seller Detail</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_sellerinfo">
+				<source>Seller Info</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_sellerinfo.seller_id">
+				<source>Seller Id</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_sellerinfo.seller_name">
+				<source>Seller Name</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_sellerinfo.seller_contact">
+				<source>Seller Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_domain_model_sellerinfo.car_id">
+				<source>Car Id</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_zingcarinfo.name">
+				<source>ZingCarInfo</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_zingcarinfo.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_sellerinfo.name">
+				<source>sellerInfo</source>
+			</trans-unit>
+			<trans-unit id="tx_zingcarinfo_sellerinfo.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

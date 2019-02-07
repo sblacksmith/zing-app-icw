@@ -1,0 +1,24 @@
+{
+    "name": "zing/productoverview",
+    "type": "typo3-cms-extension",
+    "description": "example model object",
+    "authors": [],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zing\\Productoverview\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zing\\Productoverview\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "productoverview": "self.version",
+        "typo3-ter/productoverview": "self.version"
+    }
+}

@@ -1,0 +1,15 @@
+
+plugin.tx_productview_productview {
+    view {
+        # cat=plugin.tx_productview_productview/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:product_view/Resources/Private/Templates/
+        # cat=plugin.tx_productview_productview/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:product_view/Resources/Private/Partials/
+        # cat=plugin.tx_productview_productview/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:product_view/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_productview_productview//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

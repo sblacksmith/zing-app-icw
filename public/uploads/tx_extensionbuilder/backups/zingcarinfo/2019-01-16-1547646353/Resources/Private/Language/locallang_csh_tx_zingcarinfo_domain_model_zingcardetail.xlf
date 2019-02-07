@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-16T06:41:08Z" product-name="zingcarinfo">
+		<header/>
+		<body>
+			<trans-unit id="car_id.description">
+				<source>carId</source>
+			</trans-unit>
+			<trans-unit id="car_brand.description">
+				<source>carBrand</source>
+			</trans-unit>
+			<trans-unit id="car_name.description">
+				<source>carName</source>
+			</trans-unit>
+			<trans-unit id="car_price.description">
+				<source>carPrice</source>
+			</trans-unit>
+			<trans-unit id="fuel_type.description">
+				<source>fuelType</source>
+			</trans-unit>
+			<trans-unit id="car_image.description">
+				<source>carImage</source>
+			</trans-unit>
+			<trans-unit id="seller_detail.description">
+				<source>Details of the Seller</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

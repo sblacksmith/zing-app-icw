@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-11T07:24:12Z" product-name="product_view">
+		<header/>
+		<body>
+			<trans-unit id="tx_productview_domain_model_product">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_product.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_product.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_product.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_product.brands">
+				<source>Brands</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_productview_domain_model_brand.brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_product_view_productview.name">
+				<source>productview</source>
+			</trans-unit>
+			<trans-unit id="tx_product_view_productview.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

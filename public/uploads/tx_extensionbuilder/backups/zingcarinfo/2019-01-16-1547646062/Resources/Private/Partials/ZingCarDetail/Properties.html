@@ -1,0 +1,52 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-zingcarinfo" >
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.car_id" />
+		</td>
+		<td>
+		{zingCarDetail.carId}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.car_brand" />
+		</td>
+		<td>
+		{zingCarDetail.carBrand}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.car_name" />
+		</td>
+		<td>
+		{zingCarDetail.carName}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.car_price" />
+		</td>
+		<td>
+		{zingCarDetail.carPrice}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.fuel_type" />
+		</td>
+		<td>
+		{zingCarDetail.fuelType}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_zingcarinfo_domain_model_zingcardetail.car_image" />
+		</td>
+		<td>
+				<f:image src="{zingCarDetail.carImage.originalResource.publicUrl}" width="200"/>
+		</td>
+	</tr>
+</table>
+</html>

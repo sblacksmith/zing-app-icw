@@ -1,0 +1,24 @@
+{
+    "name": "zingcarinfo/zingcarinfo",
+    "type": "typo3-cms-extension",
+    "description": "Has the details of the car and its owner details",
+    "authors": [],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zingcarinfo\\Zingcarinfo\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zingcarinfo\\Zingcarinfo\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "zingcarinfo": "self.version",
+        "typo3-ter/zingcarinfo": "self.version"
+    }
+}

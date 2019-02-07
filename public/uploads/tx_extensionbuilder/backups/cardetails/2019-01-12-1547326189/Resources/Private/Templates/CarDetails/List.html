@@ -1,0 +1,52 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+		<h1>Listing for CarDetails</h1>
+
+		<f:flashMessages />
+
+		<table  class="tx_cardetails" >
+			<tr>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.c_id" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.c_name" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.c_brand" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.color" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.price" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.fuel_type" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.seller" /></th>
+				<th><f:translate key="tx_cardetails_domain_model_cardetails.image" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>
+
+			<f:for each="{carDetailss}" as="carDetails">
+				<tr>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.cId}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.cName}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.cBrand}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.color}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.price}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.fuelType}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.seller}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{carDetails : carDetails}"> {carDetails.image.originalResource.name}</f:link.action></td>
+					<td><f:link.action action="edit" arguments="{carDetails : carDetails}">Edit</f:link.action></td>
+					<td><f:link.action action="delete" arguments="{carDetails : carDetails}">Delete</f:link.action></td>
+				</tr>
+			</f:for>
+		</table>
+
+		<f:link.action action="new">New CarDetails</f:link.action>
+	</f:section>
+</html>
