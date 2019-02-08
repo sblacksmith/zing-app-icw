@@ -70,4 +70,3 @@ call_user_func(
 		
     }
 );
-00
